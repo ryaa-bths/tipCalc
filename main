@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your Bill($): ");          //input setup
+        double bill = scanner.nextDouble();
+        System.out.println("Tip Percent: ");        //number with % sign
+        double tipPerc = scanner.nextDouble();
+        System.out.println("Number of People: ");
+        int people = scanner.nextInt();
+        System.out.println("\n");
+        System.out.print("-----------------------");
+
+        double tipTot = (bill * tipPerc) / 100;
+        
+
+
+
+    }
+}
